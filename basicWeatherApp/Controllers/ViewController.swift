@@ -5,6 +5,8 @@
 //  Created by Umithan  on 18.07.2022.
 //
 
+//WARNING: without sleep(2) the data didn't come as I expected. the array fills out with 1 item delay. probably it's because of my poor internet connection. dunno.
+
 import UIKit
 
 class ViewController: UIViewController {
