@@ -14,6 +14,7 @@
 		0F048DA02885C7B0007D5084 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F048D9F2885C7B0007D5084 /* Assets.xcassets */; };
 		0F048DA32885C7B0007D5084 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F048DA12885C7B0007D5084 /* LaunchScreen.storyboard */; };
 		0F048DAF2885D5D1007D5084 /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F048DAE2885D5D1007D5084 /* Weather.swift */; };
+		0F2FC2FB2885EAF900FAABDC /* APICaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F2FC2FA2885EAF900FAABDC /* APICaller.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		0F048DA22885C7B0007D5084 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0F048DA42885C7B0007D5084 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0F048DAE2885D5D1007D5084 /* Weather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
+		0F2FC2FA2885EAF900FAABDC /* APICaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICaller.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 		0F048D952885C7AE007D5084 /* basicWeatherApp */ = {
 			isa = PBXGroup;
 			children = (
+				0F2FC2F72885E81D00FAABDC /* Network Manager */,
 				0F048DAB2885C8EE007D5084 /* Supporting Files */,
 				0F048DAD2885D32B007D5084 /* Models */,
 				0F048DAC2885C8FA007D5084 /* Views */,
@@ -100,6 +103,14 @@
 				0F048DAE2885D5D1007D5084 /* Weather.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		0F2FC2F72885E81D00FAABDC /* Network Manager */ = {
+			isa = PBXGroup;
+			children = (
+				0F2FC2FA2885EAF900FAABDC /* APICaller.swift */,
+			);
+			path = "Network Manager";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -174,6 +185,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0F048DAF2885D5D1007D5084 /* Weather.swift in Sources */,
+				0F2FC2FB2885EAF900FAABDC /* APICaller.swift in Sources */,
 				0F048D9B2885C7AE007D5084 /* ViewController.swift in Sources */,
 				0F048D972885C7AE007D5084 /* AppDelegate.swift in Sources */,
 				0F048D992885C7AE007D5084 /* SceneDelegate.swift in Sources */,
