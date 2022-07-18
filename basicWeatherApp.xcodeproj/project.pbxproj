@@ -56,15 +56,47 @@
 		0F048D952885C7AE007D5084 /* basicWeatherApp */ = {
 			isa = PBXGroup;
 			children = (
-				0F048D962885C7AE007D5084 /* AppDelegate.swift */,
-				0F048D982885C7AE007D5084 /* SceneDelegate.swift */,
-				0F048D9A2885C7AE007D5084 /* ViewController.swift */,
-				0F048D9C2885C7AE007D5084 /* Main.storyboard */,
-				0F048D9F2885C7B0007D5084 /* Assets.xcassets */,
-				0F048DA12885C7B0007D5084 /* LaunchScreen.storyboard */,
-				0F048DA42885C7B0007D5084 /* Info.plist */,
+				0F048DAB2885C8EE007D5084 /* Supporting Files */,
+				0F048DAD2885D32B007D5084 /* Models */,
+				0F048DAC2885C8FA007D5084 /* Views */,
+				0F048DAA2885C8E1007D5084 /* Controllers */,
 			);
 			path = basicWeatherApp;
+			sourceTree = "<group>";
+		};
+		0F048DAA2885C8E1007D5084 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				0F048D9A2885C7AE007D5084 /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		0F048DAB2885C8EE007D5084 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0F048DA12885C7B0007D5084 /* LaunchScreen.storyboard */,
+				0F048D9F2885C7B0007D5084 /* Assets.xcassets */,
+				0F048D962885C7AE007D5084 /* AppDelegate.swift */,
+				0F048D982885C7AE007D5084 /* SceneDelegate.swift */,
+				0F048DA42885C7B0007D5084 /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0F048DAC2885C8FA007D5084 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0F048D9C2885C7AE007D5084 /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		0F048DAD2885D32B007D5084 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -291,10 +323,11 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 629GLD2B37;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = basicWeatherApp/Info.plist;
+				INFOPLIST_FILE = "basicWeatherApp/Supporting Files/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -306,7 +339,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -319,10 +352,11 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 629GLD2B37;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = basicWeatherApp/Info.plist;
+				INFOPLIST_FILE = "basicWeatherApp/Supporting Files/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -334,7 +368,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
